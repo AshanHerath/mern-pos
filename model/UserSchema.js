@@ -13,6 +13,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    userRoleId: {
+        type: String,
+        required: true
+    },
     activeStatus: {
         type: Boolean,
         required: true
