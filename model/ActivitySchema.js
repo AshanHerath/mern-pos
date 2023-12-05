@@ -12,6 +12,10 @@ const activitySchema = new mongoose.Schema({
     time: {
         type: Date,
         required: true
+    },
+    userId: {
+        type: String,
+        required: true
     }
 });
 
